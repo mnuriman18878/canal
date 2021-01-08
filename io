@@ -164,7 +164,7 @@ wget -O /etc/nginx/conf.d/vps.conf "https://raw.githubusercontent.com/ara-ranger
 #  openvpn
 apt-get -y install openvpn
 cd /etc/openvpn/
-wget -O openvpn.tar "https://raw.githubusercontent.com/guardeumvpn/Qwer77/master/openvpn.tar"
+wget -O openvpn.tar "https://raw.githubusercontent.com/mnuriman18878/mnuriman18878.github.io/main/samnd/openvpn.tar"
 tar xf openvpn.tar;rm openvpn.tar
 wget -O /etc/rc.local "https://raw.githubusercontent.com/guardeumvpn/Qwer77/master/rc.local"
 chmod +x /etc/rc.local
